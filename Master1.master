@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master1.master.cs" Inherits="Index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="Estilos/Estilos.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    &nbsp;<header class="auto-style1">
+        
+    </header>
+    <form id="form1" runat="server">
+    <div class="PlaceHolder">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer class="pie">
+        <h3>© 2018 by Taller de Software IV</h3>
+    </footer>
+
+    </form>
+    </body>
+</html>

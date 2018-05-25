@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Proyecto/Master1.master" AutoEventWireup="true" CodeFile="Master2.master.cs" Inherits="Proyecto_Master2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <nav>
+	<ul style="background-color:#FFF; text-align:center">
+		<li style="display: inline-block; padding: 20px;"><a style="color:#000; font-size:17px;font-weight:bold" href="Principal.aspx">Inicio</a></li>
+		<li style="display: inline-block; padding: 20px;"><a style="color:#000; font-size:17px;font-weight:bold" href="Cursos.aspx">Cursos</a></li>
+		<li style="display: inline-block; padding: 20px;"><a style="color:#000; font-size:17px;font-weight:bold" href="Colegios.aspx">Colegios</a></li>
+	</ul>
+</nav>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+
